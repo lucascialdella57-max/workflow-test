@@ -9,8 +9,9 @@ on:
       - submitted
 
 permissions:
-  pull-requests: write
   contents: read
+  pull-requests: write
+  issues: write
 
 jobs:
   manage-pr-labels:
